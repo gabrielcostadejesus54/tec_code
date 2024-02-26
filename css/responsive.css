@@ -1,0 +1,93 @@
+@media screen and (max-width: 1024px){
+    .device{
+        display: none;
+    }
+
+    .items{
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .items button{
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+    .items ul{
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .items ul li{
+        text-align: left;
+    }
+
+    .items h2{
+        text-align: center;
+    }
+
+    .items p{
+        text-align: center;
+    }
+
+    /* contato */
+    
+    .contato .formulario{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .contato .container-mapa{
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* ******* */
+}
+
+@media screen and (max-width: 768px){
+    /* header */
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    header .wraper-texto{
+        justify-content: center;
+        text-align: center;
+    }
+    /* **** */
+
+    /* sobre */
+    .sobre img{
+        position: static;
+        top: 0;
+        margin: 50px 0;
+    }
+    /* ***** */
+
+    /* depoimentos */
+    .depoimentos{
+        flex-wrap: wrap;
+    }
+
+    .nosso-time{
+        width: 100%;
+        padding: 50px 2%;
+    }
+
+    .depo{
+        width: 100%;
+        padding: 50px 2%;
+    }
+    /* ***** */
+
+    
+}

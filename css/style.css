@@ -1,0 +1,382 @@
+/* configurações Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+p, li, a{
+    font-weight: 300;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ***** */
+
+
+/* header */
+header{
+    background-image: url('../img/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 2%;
+}
+
+.menu-mobile{
+    display: none;   
+}
+
+.menu-mobile i{
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-mobile ul{
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.menu-mobile ul li{
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.menu-mobile ul li a{
+    color: black;
+    display: block;
+    padding: 10px 0;
+    border: 1px solid #cccccc;
+    transition: 0.4s;
+}
+
+.menu-mobile ul li a:hover{
+    background-color: #DDDDDD;
+    color: black;
+}
+
+header .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 180px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo h2{
+    font-size: 30px;
+    color: white;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #cccccc;
+}
+
+header .wraper-texto{
+    padding:200px 0 300px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .texto{
+    max-width: 700px;
+    color: white;
+}
+
+header .texto h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+header .texto p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+/* ****** */
+
+/* Serviços */
+.servicos{
+    background-color: rgb(87, 40, 131);
+    padding: 0 2%;
+    color: white;
+}
+
+.servicos .center{
+    display: flex;
+}
+
+.items{
+    width: 50%;
+    padding: 80px 0;
+}
+
+.items h2{
+    font-size: 40px;
+}
+
+.items p{
+    margin-top: 30px;
+}
+
+.items ul{
+    list-style-position: inside;
+    margin: 10px 0;
+}
+
+.items button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(201, 132, 4);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.items button:hover{
+    background-color: rgb(168, 111, 3);
+}
+
+.device{
+    width: 50%;
+    background-image: url('../img/device.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+/* ***** */
+
+
+/* sobre */
+.sobre{
+    text-align: center;
+    padding: 0 2%;
+}
+
+.sobre h2{
+    margin: 80px 0 40px 0;
+    font-size: 30px;
+}
+
+.sobre p{
+    max-width: 1000px;
+    width: 100%;
+    display: inline-block;
+}
+
+.sobre img{
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+/* ***** */
+
+/* Depoimentos */
+.depoimentos{
+    display: flex;
+}
+
+.nosso-time{
+    width: 50%;
+    background-color: rgb(87, 40, 131);
+    padding: 200px 2.5% 5% 10%;
+    color: white;
+}
+
+.nosso-time h2{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.depo{
+    width: 50%;
+    padding: 200px 10% 5% 2.5%;
+    background-color: #DDDDDD;
+}
+
+.depo .titulos h3{
+    font-size: 30px;
+}
+
+.depo .titulos h4{
+    margin-top: -5px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.foto-perfil{
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/me.jpg') ;
+    background-size: contain;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.bullets{
+    margin-top: 10px;
+}
+
+.bullet{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.bullet:nth-of-type(1){
+    background-color: black;
+}
+
+/* **** */
+
+/* contato */
+.contato{
+    padding: 100px 2%;
+    background-color: rgb(61, 18, 100);
+}
+
+.contato .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato .formulario{
+    max-width: 600px;
+    width: 50%;
+    padding: 2%;
+}
+
+.contato .formulario h2{
+    color: white;
+    font-size: 30px;
+}
+
+.contato .formulario p{
+    color: white;
+    margin: 20px 0;
+    width: 100%
+}
+
+.formulario input{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border: 0;
+    outline: 0;
+    padding-left: 7px;
+    margin: 5px 0;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 7px;
+    outline: none;
+    border: 0;
+    margin-top: 5px;
+}
+
+.formulario button{
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(201, 132, 4);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.4s;
+    display: block;
+}
+
+.formulario button:hover{
+    background-color: rgb(165, 108, 3);
+}
+
+.contato .container-mapa{
+    width: 50%;
+}
+
+.container-mapa h3{
+    font-size: 30px;
+    color: white;
+}
+
+.container-mapa .mapa{
+    width: 100%;
+    padding-top: 70%;
+    background-color: white;
+    border: 3px solid #cccccc;
+    position: relative;
+}
+
+.container-mapa iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ***** */
+
+/* footer */
+footer{
+    background-color: rgb(24, 19, 32);
+    padding: 30px 2%;
+    text-align: center;
+    color: white;
+}
+/* ***** */
